@@ -1,0 +1,191 @@
+body, tr, td, p {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt; 
+}
+
+body{
+	overflow-y: scroll;
+}
+
+
+a {
+	color: #1a36e4;
+	text-decoration: underline;
+}
+
+
+a:hover {
+	color: #ff5500;
+}
+
+
+a.menu {
+	color: #990033;
+	text-decoration: none;
+	font-size: 11pt;
+}
+
+
+a:hover.menu {
+	color: #ff5500;
+	text-decoration: underline;
+}
+
+
+hr.news {
+	border-top: 1px dashed #CA4623;
+	border-bottom: 1px dashed #f3f3f3;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+
+.news {
+	color: #CA4623;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+	font-size: 13.5pt;
+}
+
+.news-s {
+	color: #CA4623;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+	font-size: 11pt;
+}
+
+
+span.sub_title {
+	font-size: 14pt;
+	color: #FFA500;
+	font-weight: bold;
+	font-style: italic;
+	/*float:left;*/
+
+}
+
+
+td.sub_title {
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	background: #75B8C9;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.sub_header1 {
+	color: #000099;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+.human_name {
+	font-weight: bold;
+}
+
+#container {
+position: relative;
+margin: 0 auto;
+width: 940px;
+}
+
+#banner{
+
+
+}
+
+.table-hotel{
+	border: 1px #75B8C9 solid; 
+	border-collapse: collapse;
+
+
+}
+
+.table-hotel caption{
+	text-align: left;
+
+}
+
+.table-hotel tr{
+	border-bottom: 1px #75B8C9 solid; 
+
+}
+
+.table-hotel td{
+	padding: 3px 7px 3px 10px;
+}
+
+
+.table-hotel th{
+	text-align: left;
+	background-color: #75B8C9;
+	padding: 5px 5px 5px 10px;
+}
+
+a.lanSwit{
+	float:right;
+	font-size: 12pt;
+}
+
+.table-pro{
+	border: 1px #75B8C9 solid; 
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-pro th{
+	background-color:#2F6263;
+	color:white;
+	padding-left: 250px;
+	text-align: left;
+
+}
+
+.table-pro tr td:first-child{
+	width:16%;
+	border-right: 1px #75B8C9 solid; 
+}
+
+.table-pro tr td:last-child{
+	text-align: right;
+	padding-right: 3px;
+}
+
+.table-pro tr{
+	border-bottom: 1px #75B8C9 solid; 
+	border-top: 1px #75B8C9 solid; 
+}
+
+.table-pro td{
+	padding-left: 3px;
+}
+
+ul.second {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+
+}
+
+ul.second li:before{
+	display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: 0em;
+}
+
+label.grayBack{
+	background-color: #BDBDBD;
+
+}
+
+ul.first{
+	padding-left:1em;
+}
+
+label.indent{
+	padding-left: 70px;
+}
